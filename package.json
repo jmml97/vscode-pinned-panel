@@ -2,21 +2,18 @@
   "name": "pinned-panel",
   "displayName": "Pinned Panel",
   "description": "Add separate panel for pinned files",
-  "publisher": "ukyouz",
+  "publisher": "jmml97",
   "repository": {
-	"type": "git",
-	"url": "https://github.com/ukyouz/VSCode-PinnedPanel/tree/main"
+    "type": "git",
+    "url": "https://github.com/jmml97/vscode-pinned-panel/tree/main"
   },
-  "version": "0.0.1",
+  "version": "0.1.1",
   "engines": {
-    "vscode": "^1.54.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Other"
   ],
-	"activationEvents": [
-	  "onView:packagePinnedExplorer"
-	],
   "main": "./out/extension.js",
   "contributes": {
     "views": {
